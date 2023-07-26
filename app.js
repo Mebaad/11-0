@@ -1,7 +1,7 @@
 //task1
 
-var num1 =90;
-var num2 =20;
+var num1 =80;
+var num2 =40;
 
 if (num1>num2){
   console.log("the largest integer is: [num1]");
@@ -10,7 +10,7 @@ else if (num2>num1){
   console.log("the largest integer is:[num2]");
 }
 else {
-  console.log("both integers are equal.5");
+  console.log("both integers are equal.");
 }
 
 //task3
@@ -24,10 +24,10 @@ else {
 
 //task2
 
-var number = +prompt("Enter a number:7");
+var number = +prompt("Enter a number:5");
 if (isNaN(number)) {
    alert("Invalid input. Please enter a valid number.6");
-} else if (number > 4) {
+} else if (number > 0) {
    alert("The number is positive.6");
 } else if (number < 0) {
    alert("The number is negative.5");
